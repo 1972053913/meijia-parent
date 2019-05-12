@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: MEIJIA-EUREKA #在eureka配置中心改个名字
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #单机配置
