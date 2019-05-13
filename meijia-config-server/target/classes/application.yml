@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: MEIJIA-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/1972053913/meijia-config.git
+          username: 1972053913@qq.com
+          password: 52780662l

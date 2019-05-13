@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="basic-util" />
         <module name="meijai-zuul-server" />
+        <module name="meijia-config-server" />
         <module name="meijia-eureka-server" />
         <module name="plat-interface" />
         <module name="plat-service" />
@@ -17,6 +18,7 @@
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
       <module name="meijai-zuul-server" target="1.8" />
+      <module name="meijia-config-server" target="1.8" />
       <module name="meijia-eureka-server" target="1.8" />
       <module name="meijia-parent" target="1.8" />
       <module name="meijia-plat-parent" target="1.8" />

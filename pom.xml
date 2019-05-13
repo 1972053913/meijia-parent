@@ -13,6 +13,7 @@
         <module>meijai-zuul-server</module>
         <module>basic-parent</module>
         <module>meijia-plat-parent</module>
+        <module>meijia-config-server</module>
     </modules>
 
     <properties>
