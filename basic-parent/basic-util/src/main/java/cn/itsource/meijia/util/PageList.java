@@ -27,4 +27,9 @@ public class PageList<T> {
     public void setRows(List<T> rows) {
         this.rows = rows;
     }
+
+    public PageList(Long total, List<T> rows) {
+        this.total = total;
+        this.rows = rows;
+    }
 }

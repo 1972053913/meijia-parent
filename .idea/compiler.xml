@@ -6,15 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basic-core" />
+        <module name="basic-generator" />
         <module name="basic-util" />
         <module name="meijai-zuul-server" />
         <module name="meijia-config-server" />
         <module name="meijia-eureka-server" />
         <module name="plat-interface" />
         <module name="plat-service" />
+        <module name="product-interface" />
+        <module name="product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="basic-core" target="1.8" />
+      <module name="basic-generator" target="1.8" />
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
       <module name="meijai-zuul-server" target="1.8" />
@@ -22,8 +28,11 @@
       <module name="meijia-eureka-server" target="1.8" />
       <module name="meijia-parent" target="1.8" />
       <module name="meijia-plat-parent" target="1.8" />
+      <module name="meijia-product-parent" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
+      <module name="product-interface" target="1.8" />
+      <module name="product-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

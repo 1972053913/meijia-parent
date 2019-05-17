@@ -2,32 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcf80365-378c-4969-8785-2002c739919e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_13_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_13_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/GlobalCorsConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/mapper/EmployeeMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/IEmployeeService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/impl/EmployeeServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-core/basic-core.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-core/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-core/src/main/java/cn/itsource/meijia/query/BaseQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/meijia/generator/CodeCopy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/controller.java.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/query.java.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/BitStatesUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/ClassUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/CodeGenerateUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/GlobalSetting.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/LetterUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/ProductStateConsts.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/PropertiesHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/StrUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/encrypt/DES.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/encrypt/MD5.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/meijia-product-parent.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-interface/product-interface.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/product-service.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/ProductApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/config/MySwagger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/config/MybatisPlusConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/resources/bootstrap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/meijia-product-parent/product-service/src/test/java/cn/itsource/meijia/service/IProductTypeServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/meijia-plat-parent/plat-interface/plat-interface.iml" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-interface/plat-interface.iml" />
-      <change beforePath="$PROJECT_DIR$/meijia-plat-parent/plat-interface/pom.xml" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/meijia-plat-parent/plat-interface/src/main/java/cn/itsource/meijia/domain/Employee.java" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-interface/src/main/java/cn/itsource/meijia/domain/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/meijia-plat-parent/plat-service/plat-service.iml" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-service/plat-service.iml" />
-      <change beforePath="$PROJECT_DIR$/meijia-plat-parent/plat-service/pom.xml" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/controller/LoginController.java" afterPath="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/controller/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/PageList.java" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/PageList.java" />
+      <change beforePath="$PROJECT_DIR$/basic-parent/basic-util/target/classes/cn/itsource/meijia/util/PageList.class" afterPath="$PROJECT_DIR$/basic-parent/basic-util/target/classes/cn/itsource/meijia/util/PageList.class" />
+      <change beforePath="$PROJECT_DIR$/basic-parent/pom.xml" afterPath="$PROJECT_DIR$/basic-parent/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/DocumentationConfig.java" afterPath="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/DocumentationConfig.java" />
+      <change beforePath="$PROJECT_DIR$/meijai-zuul-server/target/classes/cn/itsource/meijia/config/DocumentationConfig.class" afterPath="$PROJECT_DIR$/meijai-zuul-server/target/classes/cn/itsource/meijia/config/DocumentationConfig.class" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,6 +73,11 @@
     <ignored path="$PROJECT_DIR$/meijia-plat-parent/plat-interface/target/" />
     <ignored path="$PROJECT_DIR$/meijia-plat-parent/plat-service/target/" />
     <ignored path="$PROJECT_DIR$/meijia-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/meijia-product-parent/target/" />
+    <ignored path="$PROJECT_DIR$/meijia-product-parent/product-interface/target/" />
+    <ignored path="$PROJECT_DIR$/meijia-product-parent/product-service/target/" />
+    <ignored path="$PROJECT_DIR$/basic-parent/basic-generator/target/" />
+    <ignored path="$PROJECT_DIR$/basic-parent/basic-core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +87,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/controller/LoginController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="609">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrandController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/controller/BrandController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +115,17 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\\</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -83,31 +139,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/meijia-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/meijia-eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/meijia-eureka-server/src/main/java/cn/itsource/meijia/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/basic-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/domain.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/Employee.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/domain/Employee.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/domain/PageList.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/domain/AjaxResult.java" />
-        <option value="$PROJECT_DIR$/meijia-plat-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/PlatApplication.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/PageList.java" />
-        <option value="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/config/MySwagger.java" />
-        <option value="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/meijia-config-server/src/main/java/cn/itsource/meijia/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/meijia-config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/meijia-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/meijai-zuul-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/meijai-zuul-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/meijai-zuul-server/pom.xml" />
         <option value="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/DocumentationConfig.java" />
         <option value="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/GlobalCorsConfig.java" />
         <option value="$PROJECT_DIR$/meijia-plat-parent/plat-service/pom.xml" />
         <option value="$PROJECT_DIR$/meijia-plat-parent/plat-interface/pom.xml" />
@@ -124,6 +160,36 @@
         <option value="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/impl/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/meijia-plat-parent/plat-interface/src/main/java/cn/itsource/meijia/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/encrypt/DES.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/config/MySwagger.java" />
+        <option value="$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/DocumentationConfig.java" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-core/src/main/java/cn/itsource/meijia/query/BaseQuery.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/aigou/query/BrandQuery.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/aigou/query/ProductQuery.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/aigou/query/ProductTypeQuery.java" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/PageList.java" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/query.java.vm" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/controller.java.vm" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/meijia/generator/CodeCopy.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/IBrandService.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/resources/cn/itsource/meijia/mapper/BrandMapper.xml" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/mapper/BrandMapper.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/controller/ProductTypeController.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/meijia/domain/ProductType.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/IProductTypeService.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/test/java/cn/itsource/meijia/service/IProductTypeServiceTest.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/impl/ProductTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/meijia/domain/Brand.java" />
+        <option value="$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/controller/BrandController.java" />
       </list>
     </option>
   </component>
@@ -160,8 +226,8 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
-    <option name="y" value="228" />
+    <option name="x" value="-299" />
+    <option name="y" value="11" />
     <option name="width" value="1037" />
     <option name="height" value="743" />
   </component>
@@ -183,6 +249,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,14 +258,119 @@
               <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meijia-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meijia-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="meijia" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,21 +385,34 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.itsource.meijia.service" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itsource.meijia.config" />
       <recent name="cn.itsource.meijia.service.impl" />
       <recent name="cn.itsource.meijia.service" />
       <recent name="cn.itsource.meijia" />
       <recent name="cn.itsource.meijia.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JetBrains\meijia\meijia-parent\meijia-product-parent\product-service\src\main\java\cn\itsource\meijia\config" />
+      <recent name="E:\JetBrains\meijia\meijia-parent\basic-parent\basic-generator\src\main\resources" />
+      <recent name="E:\JetBrains\meijia\meijia-parent\meijia-product-parent\product-service\src\main\resources" />
+      <recent name="E:\JetBrains\meijia\meijia-parent\basic-parent\basic-util\src\main\java\cn\itsource\meijia\util" />
       <recent name="E:\JetBrains\meijia-parent\meijia-plat-parent\plat-service\src\main\resources" />
-      <recent name="E:\JetBrains\meijia-parent\meijai-zuul-server\src\main\java\cn\itsource\meijia" />
-      <recent name="E:\JetBrains\meijia-parent\basic-parent\basic-util\src\main\java\cn\itsource\meijia\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,13 +432,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PlatApplication">
+  <component name="RunManager" selected="JUnit.IProductTypeServiceTest.loadTreeData">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="CodeCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.itsource.meijia.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.itsource.meijia.generator.CodeCopy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="basic-generator" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -267,6 +472,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="IProductTypeServiceTest.loadTreeData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.itsource.meijia.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="product-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.itsource.meijia.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.itsource.meijia.service.IProductTypeServiceTest" />
+      <option name="METHOD_NAME" value="loadTreeData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -315,6 +545,12 @@
       <module name="plat-service" />
       <envs />
     </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.meijia.ProductApplication" />
+      <module name="product-service" />
+      <envs />
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itsource.meijia.ZuulApplication" />
@@ -355,12 +591,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.PlatApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ProductApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CodeCopy" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.IProductTypeServiceTest.loadTreeData" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IProductTypeServiceTest.loadTreeData" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CodeCopy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -383,12 +628,26 @@
       <workItem from="1557716020269" duration="2354000" />
       <workItem from="1557731106603" duration="100000" />
       <workItem from="1557755480427" duration="1621000" />
-      <workItem from="1557797256233" duration="6197000" />
+      <workItem from="1557797256233" duration="6339000" />
+      <workItem from="1557816508199" duration="691000" />
+      <workItem from="1557986123621" duration="19775000" />
+      <workItem from="1558054300864" duration="88000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="IProductTypeServiceTest_loadTreeData - 2019.05.16 at 21h 41m 08s.xml">
+      <configuration name="IProductTypeServiceTest.loadTreeData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IProductTypeServiceTest_loadTreeData - 2019.05.16 at 21h 43m 03s.xml">
+      <configuration name="IProductTypeServiceTest.loadTreeData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IProductTypeServiceTest_loadTreeData - 2019.05.16 at 21h 57m 28s.xml">
+      <configuration name="IProductTypeServiceTest.loadTreeData" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25673000" />
+    <option name="totallyTimeSpent" value="46369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,6 +660,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -415,28 +675,28 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7363946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6468591" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64625853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22617246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,208 +710,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="525">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-config-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/impl/EmployeeImpl.java" />
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/mapper/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="84">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/IEmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="43" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="63">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-eureka-server/src/main/java/cn/itsource/meijia/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-            <element signature="e#507#508#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/AjaxResult.java" />
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/PageList.java" />
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/PageList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/AjaxResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/PlatApplication.java">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/mapper/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/config/MySwagger.java">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/IEmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-config-server/src/main/resources/application.yml.kt" />
-    <entry file="file://$PROJECT_DIR$/meijia-config-server/src/main/java/cn/itsource/meijia/ConfigApplication.java">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/impl/EmployeeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#453#454#0" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-interface/src/main/java/cn/itsource/meijia/domain/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="43" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -663,18 +768,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/DocumentationConfig.java">
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/StrUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="-148">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/encrypt/DES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/GlobalCorsConfig.java">
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="371">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/config/MySwagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -687,174 +820,370 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-interface/src/main/java/cn/itsource/meijia/mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-interface/src/main/java/cn/itsource/meijia/service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/impl/EmployeeImpl.java">
+    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/GlobalCorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/mapper/EmployeeMapper.java">
+    <entry file="file://$PROJECT_DIR$/meijai-zuul-server/src/main/java/cn/itsource/meijia/config/DocumentationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/resources/cn/itsource/aigou/mapper/BrandMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/aigou/query/ProductTypeQuery.java" />
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/aigou/domain/Brand.java" />
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="80" column="55" lean-forward="false" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/aigou/query/ProductQuery.java" />
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/aigou/query/BrandQuery.java" />
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-core/src/main/java/cn/itsource/meijia/query/BaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/query.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/controller.java.vm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/IEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/IEmployeeService.java">
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/meijia/query/BrandQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/ProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/IBrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/meijia/util/PageList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/impl/BrandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/resources/cn/itsource/meijia/mapper/BrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="53" column="10" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1558010922860" expanded="true" signature="1888:1992" ph="SELECT b.*,p... t_brand" />
+            <marker date="1558010922860" expanded="true" signature="2111:2246" ph="SELECT b.*,p... t_brand" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/service/impl/EmployeeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/mapper/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/controller/ProductTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="92" column="46" lean-forward="false" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+          <folding>
+            <element signature="e#2742#2743#0" expanded="false" />
+            <element signature="e#2798#2799#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/meijia/domain/ProductType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="e#4159#4160#0" expanded="false" />
+            <element signature="e#4190#4191#0" expanded="false" />
+            <element signature="e#4249#4250#0" expanded="false" />
+            <element signature="e#4289#4290#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/IProductTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/test/java/cn/itsource/meijia/service/IProductTypeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/meijia/generator/CodeCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="86" column="73" lean-forward="false" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/service/impl/ProductTypeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/src/main/java/cn/itsource/meijia/domain/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1317#1318#0" expanded="false" />
+            <element signature="e#1345#1346#0" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1413#1414#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+            <element signature="e#1542#1543#0" expanded="false" />
+            <element signature="e#1575#1576#0" expanded="false" />
+            <element signature="e#1625#1626#0" expanded="false" />
+            <element signature="e#1669#1670#0" expanded="false" />
+            <element signature="e#1700#1701#0" expanded="false" />
+            <element signature="e#1727#1728#0" expanded="false" />
+            <element signature="e#1767#1768#0" expanded="false" />
+            <element signature="e#1799#1800#0" expanded="false" />
+            <element signature="e#1837#1838#0" expanded="false" />
+            <element signature="e#1871#1872#0" expanded="false" />
+            <element signature="e#1925#1926#0" expanded="false" />
+            <element signature="e#1971#1972#0" expanded="false" />
+            <element signature="e#2009#2010#0" expanded="false" />
+            <element signature="e#2043#2044#0" expanded="false" />
+            <element signature="e#2097#2098#0" expanded="false" />
+            <element signature="e#2143#2144#0" expanded="false" />
+            <element signature="e#2181#2182#0" expanded="false" />
+            <element signature="e#2215#2216#0" expanded="false" />
+            <element signature="e#2269#2270#0" expanded="false" />
+            <element signature="e#2315#2316#0" expanded="false" />
+            <element signature="e#2353#2354#0" expanded="false" />
+            <element signature="e#2389#2390#0" expanded="false" />
+            <element signature="e#2445#2446#0" expanded="false" />
+            <element signature="e#2495#2496#0" expanded="false" />
+            <element signature="e#2532#2533#0" expanded="false" />
+            <element signature="e#2564#2565#0" expanded="false" />
+            <element signature="e#2615#2616#0" expanded="false" />
+            <element signature="e#2657#2658#0" expanded="false" />
+            <element signature="e#2688#2689#0" expanded="false" />
+            <element signature="e#2715#2716#0" expanded="false" />
+            <element signature="e#2755#2756#0" expanded="false" />
+            <element signature="e#2787#2788#0" expanded="false" />
+            <element signature="e#2839#2840#0" expanded="false" />
+            <element signature="e#2869#2870#0" expanded="false" />
+            <element signature="e#3361#3362#0" expanded="false" />
+            <element signature="e#3395#3396#0" expanded="false" />
+            <element signature="e#3454#3455#0" expanded="false" />
+            <element signature="e#3500#3501#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-interface/src/main/java/cn/itsource/meijia/domain/Employee.java">
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#1719#1720#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1855#1856#0" expanded="true" />
-            <element signature="e#1886#1887#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2068#2069#0" expanded="true" />
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2200#2201#0" expanded="true" />
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2271#2272#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
-            <element signature="e#2336#2337#0" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#2407#2408#0" expanded="true" />
-            <element signature="e#2443#2444#0" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2553#2554#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2624#2625#0" expanded="true" />
-            <element signature="e#2655#2656#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-            <element signature="e#2741#2742#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="609">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/src/main/java/cn/itsource/meijia/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/meijia-product-parent/product-service/src/main/java/cn/itsource/meijia/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="294">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>product-interface</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

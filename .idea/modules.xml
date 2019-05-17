@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-core/basic-core.iml" filepath="$PROJECT_DIR$/basic-parent/basic-core/basic-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" filepath="$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/meijai-zuul-server/meijai-zuul-server.iml" filepath="$PROJECT_DIR$/meijai-zuul-server/meijai-zuul-server.iml" />
@@ -9,8 +11,11 @@
       <module fileurl="file://$PROJECT_DIR$/meijia-eureka-server/meijia-eureka-server.iml" filepath="$PROJECT_DIR$/meijia-eureka-server/meijia-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/meijia-parent.iml" filepath="$PROJECT_DIR$/meijia-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/meijia-plat-parent/meijia-plat-parent.iml" filepath="$PROJECT_DIR$/meijia-plat-parent/meijia-plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meijia-product-parent/meijia-product-parent.iml" filepath="$PROJECT_DIR$/meijia-product-parent/meijia-product-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/meijia-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/meijia-plat-parent/plat-interface/plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/meijia-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/meijia-plat-parent/plat-service/plat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meijia-product-parent/product-interface/product-interface.iml" filepath="$PROJECT_DIR$/meijia-product-parent/product-interface/product-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meijia-product-parent/product-service/product-service.iml" filepath="$PROJECT_DIR$/meijia-product-parent/product-service/product-service.iml" />
     </modules>
   </component>
 </project>
