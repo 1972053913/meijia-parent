@@ -15,6 +15,7 @@
         <module>meijia-plat-parent</module>
         <module>meijia-config-server</module>
         <module>meijia-product-parent</module>
+        <module>meijia-common-parent</module>
     </modules>
 
     <properties>

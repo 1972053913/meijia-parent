@@ -6,10 +6,12 @@ import cn.itsource.meijia.query.ProductTypeQuery;
 import cn.itsource.meijia.util.AjaxResult;
 import cn.itsource.meijia.util.PageList;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -92,4 +94,43 @@ public class ProductTypeController {
     public List<ProductType> loadTreeDate(){
         return productTypeService.loadTreeData();
     }
+
+    /**
+     * 生成静态Html文件
+     * @return
+     */
+    @GetMapping("/page")
+    public AjaxResult createStaticHtml(){
+        try {
+            productTypeService.createStaticHtml();
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setMessage("生成对象失败！"+e.getMessage());
+        }
+    }
+
+    /**
+     * 删除多个对象信息
+     * @param ids
+     * @return
+     */
+    @RequestMapping(value="/productType/deleteMany",method=RequestMethod.DELETE)
+    public AjaxResult deleteMany(@RequestBody String ids){
+        System.out.println(ids);
+        String[] split = ids.split(",");
+        List<String> idList = new ArrayList<String>();
+        for (String id : split) {
+            idList.add(id);
+        }
+        try {
+            productTypeService.removeByIds(idList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setMessage("删除对象失败！"+e.getMessage());
+        }
+    }
+
+
 }

@@ -10,6 +10,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -80,5 +81,26 @@ public class BrandController {
     @RequestMapping(value = "/brand/page", method = RequestMethod.POST)
     public PageList<Brand> page(@RequestBody BrandQuery query) {
         return brandService.getByQuery(query);
+    }
+
+    /**
+     * 删除多个对象信息
+     * @param ids
+     * @return
+     */
+    @RequestMapping(value="/brand/deleteMany",method=RequestMethod.DELETE)
+    public AjaxResult deleteMany(@RequestBody String ids){
+        String[] split = ids.split(",");
+        List<String> idList = new ArrayList<String>();
+        for (String id : split) {
+            idList.add(id);
+        }
+        try {
+            brandService.removeByIds(idList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setMessage("删除对象失败！"+e.getMessage());
+        }
     }
 }

@@ -1,16 +1,20 @@
 package cn.itsource.meijia.service.impl;
 
+import cn.itsource.meijia.client.RedisClient;
+import cn.itsource.meijia.client.TemplateClient;
 import cn.itsource.meijia.domain.ProductType;
 import cn.itsource.meijia.mapper.ProductTypeMapper;
 import cn.itsource.meijia.service.IProductTypeService;
+import com.alibaba.fastjson.JSONArray;
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.Serializable;
+import java.util.*;
 
 /**
  * <p>
@@ -23,16 +27,61 @@ import java.util.Map;
 @Service
 public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, ProductType> implements IProductTypeService {
 
+    @Autowired
+    private RedisClient redisClient;
+
+    @Autowired
+    private TemplateClient templateClient;
+
+
     /**
      * 查询菜单树
+     *
      * @return
      */
     @Override
     public List<ProductType> loadTreeData() {
-        //这是通过递归查询，传入父ID
-        //return loadDateTree(0L);
-        //这是循环查询
-        return loadDataTree();
+        //先从缓存中查
+        String productTypes = redisClient.get("productTypes");
+        if(StringUtils.isEmpty(productTypes)){
+            List<ProductType> list = loadDataTree();
+            String string = JSONArray.toJSONString(list);
+            redisClient.set("productTypes",string);
+            return list;
+        }else {
+            //转换为list
+            List<ProductType> list = JSONArray.parseArray(productTypes, ProductType.class);
+            return list;
+        }
+    }
+
+
+    /**
+     * 这是创建静态html页面
+     */
+    @Override
+    public void createStaticHtml() {
+        //这是先根据product.type.vm模板生成 product.type.vm.html
+        String templatePath="E:\\JetBrains\\meijia\\meijia-parent\\meijia-product-parent\\product-service\\src\\main\\resources\\template\\product.type.vm";
+        String targetPath="E:\\JetBrains\\meijia\\meijia-parent\\meijia-product-parent\\product-service\\src\\main\\resources\\template\\product.type.vm.html";
+        List<ProductType> list = loadDataTree();
+        Map<String,Object> map = new HashMap<>();
+        map.put("model",list);
+        map.put("templatePath",templatePath);
+        map.put("targetPath",targetPath);
+        templateClient.createStaticPage(map);
+
+        //再根据home.vm生成home.html
+        templatePath="E:\\JetBrains\\meijia\\meijia-parent\\meijia-product-parent\\product-service\\src\\main\\resources\\template\\home.vm";
+        targetPath="E:\\JetBrains\\meijia\\meijia-web-parent\\ecommerce\\home.html";
+        map = new HashMap<>();
+        Map<String,Object> model = new HashMap<>();
+        model.put("staticRoot","E:\\JetBrains\\meijia\\meijia-parent\\meijia-product-parent\\product-service\\src\\main\\resources\\");
+        map.put("model",model);
+        map.put("templatePath",templatePath);
+        map.put("targetPath",targetPath);
+        templateClient.createStaticPage(map);
+
     }
 
 
@@ -79,5 +128,51 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
             }
         }
         return list;
+    }
+
+    @Override
+    public boolean save(ProductType entity) {
+        boolean save = super.save(entity);
+        sychornizedOperate();
+        return save;
+    }
+
+    @Override
+    public boolean removeById(Serializable id) {
+        boolean remove = super.removeById(id);
+        sychornizedOperate();
+        return remove;
+    }
+
+    @Override
+    public boolean updateById(ProductType entity) {
+        boolean update = super.updateById(entity);
+        sychornizedOperate();
+        return update;
+    }
+
+    @Override
+    public boolean removeByIds(Collection<? extends Serializable> idList) {
+        boolean byIds = super.removeByIds(idList);
+        sychornizedOperate();
+        return byIds;
+    }
+
+    /**
+     * 增删改需要改变缓存
+     */
+    private void updateRedis(){
+        List<ProductType> productTypes = loadDataTree();
+        //转成json字符串缓存到redis中
+        String jsonString = JSONArray.toJSONString(productTypes);
+        redisClient.set("productTypes",jsonString);
+    }
+
+    /**
+     * 这个是将redis和模板生成静态化页面结合了
+     */
+    private void sychornizedOperate(){
+        updateRedis();
+        createStaticHtml();
     }
 }

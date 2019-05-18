@@ -1,6 +1,7 @@
 package cn.itsource.meijia.service;
 
 import cn.itsource.meijia.ProductApplication;
+import cn.itsource.meijia.client.RedisClient;
 import cn.itsource.meijia.domain.ProductType;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,6 +18,9 @@ import static org.junit.Assert.*;
 public class IProductTypeServiceTest {
 
     @Autowired
+    private RedisClient redisClient;
+
+    @Autowired
     private IProductTypeService productTypeService;
 
     @Test
@@ -25,5 +29,16 @@ public class IProductTypeServiceTest {
         for (ProductType productType : productTypes) {
             System.out.println(productType);
         }
+    }
+
+    @Test
+    public void string1(){
+        redisClient.set("aa","bbbbbb");
+    }
+
+    @Test
+    public void string2(){
+        String aa = redisClient.get("aa");
+        System.out.println(aa);
     }
 }

@@ -9,6 +9,8 @@
         <module name="basic-core" />
         <module name="basic-generator" />
         <module name="basic-util" />
+        <module name="common-interface" />
+        <module name="common-service" />
         <module name="meijai-zuul-server" />
         <module name="meijia-config-server" />
         <module name="meijia-eureka-server" />
@@ -23,7 +25,10 @@
       <module name="basic-generator" target="1.8" />
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
+      <module name="common-interface" target="1.8" />
+      <module name="common-service" target="1.8" />
       <module name="meijai-zuul-server" target="1.8" />
+      <module name="meijia-common-parent" target="1.8" />
       <module name="meijia-config-server" target="1.8" />
       <module name="meijia-eureka-server" target="1.8" />
       <module name="meijia-parent" target="1.8" />
