@@ -1,23 +1,28 @@
 package cn.itsource.meijia.controller;
 
+import cn.itsource.meijia.service.IProductService;
 import cn.itsource.meijia.service.IProductTypeService;
 import cn.itsource.meijia.domain.ProductType;
 import cn.itsource.meijia.query.ProductTypeQuery;
 import cn.itsource.meijia.util.AjaxResult;
 import cn.itsource.meijia.util.PageList;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class ProductTypeController {
     @Autowired
     public IProductTypeService productTypeService;
+    @Autowired
+    public IProductService productService;
 
     /**
     * 保存和修改公用的
@@ -28,8 +33,10 @@ public class ProductTypeController {
     public AjaxResult save(@RequestBody ProductType productType){
         try {
             if(productType.getId()!=null){
+                productType.setUpdateTime(new Date().getTime());
                 productTypeService.updateById(productType);
             }else{
+                productType.setCreateTime(new Date().getTime());
                 productTypeService.save(productType);
             }
             return AjaxResult.me();
@@ -132,5 +139,14 @@ public class ProductTypeController {
         }
     }
 
+    /**
+     * 加载类型面包屑
+     * @param productTypeId
+     * @return
+     */
+    @GetMapping("/productType/crumb")
+    public List<Map<String,Object>> loadCrumbs(Long productTypeId){
+        return productService.loadCrumbs(productTypeId);
+    }
 
 }

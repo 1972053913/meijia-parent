@@ -2,6 +2,7 @@ package cn.itsource.meijia.mapper;
 
 import cn.itsource.meijia.domain.ProductType;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>

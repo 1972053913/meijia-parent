@@ -5,6 +5,7 @@ import cn.itsource.meijia.client.TemplateClient;
 import cn.itsource.meijia.domain.ProductType;
 import cn.itsource.meijia.mapper.ProductTypeMapper;
 import cn.itsource.meijia.service.IProductTypeService;
+import cn.itsource.meijia.util.StrUtils;
 import com.alibaba.fastjson.JSONArray;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;

@@ -10,7 +10,7 @@
         <result column="name" property="name" />
         <result column="subName" property="subName" />
         <result column="code" property="code" />
-        <result column="productType" property="productType" />
+        <result column="productTypeId" property="productTypeId" />
         <result column="onSaleTime" property="onSaleTime" />
         <result column="offSaleTime" property="offSaleTime" />
         <result column="brandId" property="brandId" />
@@ -25,6 +25,76 @@
         <result column="goodCommentCount" property="goodCommentCount" />
         <result column="commonCommentCount" property="commonCommentCount" />
         <result column="badCommentCount" property="badCommentCount" />
+        <result column="medias" property="medias" />
+        <result column="skuProperties" property="skuProperties" />
     </resultMap>
+
+
+    <resultMap id="ProductMap" type="cn.itsource.meijia.domain.Product">
+        <id column="id" property="id" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="name" property="name" />
+        <result column="subName" property="subName" />
+        <result column="code" property="code" />
+        <result column="productTypeId" property="productTypeId" />
+        <result column="onSaleTime" property="onSaleTime" />
+        <result column="offSaleTime" property="offSaleTime" />
+        <result column="brandId" property="brandId" />
+        <result column="state" property="state" />
+        <result column="maxPrice" property="maxPrice" />
+        <result column="minPrice" property="minPrice" />
+        <result column="saleCount" property="saleCount" />
+        <result column="viewCount" property="viewCount" />
+        <result column="commentCount" property="commentCount" />
+        <result column="commentScore" property="commentScore" />
+        <result column="viewProperties" property="viewProperties" />
+        <result column="goodCommentCount" property="goodCommentCount" />
+        <result column="commonCommentCount" property="commonCommentCount" />
+        <result column="badCommentCount" property="badCommentCount" />
+        <result column="medias" property="medias" />
+        <result column="skuProperties" property="skuProperties" />
+        <result column="productTypeId" property="productType.id"/>
+        <result column="typename" property="productType.name"/>
+        <result column="brandId" property="brand.id"/>
+        <result column="bname" property="brand.name"/>
+    </resultMap>
+
+    <!--上架-->
+    <update id="onSale">
+        update t_product
+        set onSaleTime = #{onSaleTime},state=1
+        where id in
+        <foreach collection="ids" open="(" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </update>
+    <!--下架-->
+    <update id="offSale">
+        update t_product
+        set offSaleTime = #{offSaleTime},state=0
+        where id in
+        <foreach collection="ids" open="(" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </update>
+
+    <select id="selectByQuery" resultMap="ProductMap">
+        SELECT tp.*,tpt.name typename,tb.name bname
+        FROM t_product tp
+        LEFT JOIN t_product_type tpt ON tp.productTypeId = tpt.id
+        LEFT JOIN t_brand tb ON tp.brandId = tb.id
+        <include refid="whereSql"/>
+    </select>
+
+    <sql id="whereSql">
+        <where>
+            <if test="query.keyword!=null and query.keyword!=''">
+                and ( tp.name like concat('%',#{query.keyword},'%') or tp.subName like concat('%',#{query.keyword},'%') )
+            </if>
+        </where>
+    </sql>
+
+
 
 </mapper>

@@ -23,7 +23,7 @@ public class CodeCopy {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         gc.setOutputDir(rb.getString("OutputDir"));//代码输出的目录
-        gc.setFileOverride(false);//是否重写
+        gc.setFileOverride(true);//是否重写
         gc.setActiveRecord(true);// 开启 activeRecord 模式
         gc.setEnableCache(false);// XML 二级缓存
         gc.setBaseResultMap(true);// XML ResultMap
@@ -43,7 +43,7 @@ public class CodeCopy {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setTablePrefix(new String[] { "t_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[]{"t_product","t_brand","t_product_type"}); // 需要生成的表
+        strategy.setInclude(new String[]{"t_sku"}); // 需要生成的表
         mpg.setStrategy(strategy);
         // 包配置
         PackageConfig pc = new PackageConfig();

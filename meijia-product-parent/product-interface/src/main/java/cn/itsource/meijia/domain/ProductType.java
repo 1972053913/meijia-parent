@@ -35,6 +35,9 @@ private static final long serialVersionUID=1L;
     @TableField(exist = false)
     private List<ProductType> children = new ArrayList<>();
 
+    @TableField(exist = false)
+    private ProductType productType;
+
     /**
      * 类型名
      */
@@ -218,5 +221,13 @@ private static final long serialVersionUID=1L;
 
     public void setChildren(List<ProductType> children) {
         this.children = children;
+    }
+
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
     }
 }

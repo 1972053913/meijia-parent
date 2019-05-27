@@ -5,6 +5,8 @@ import cn.itsource.meijia.query.BrandQuery;
 import cn.itsource.meijia.util.PageList;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.Map;
+
 /**
  * <p>
  * 品牌信息 服务类
@@ -16,4 +18,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface IBrandService extends IService<Brand> {
 
     PageList<Brand> getByQuery(BrandQuery query);
+
+    Map<String,Object> loadByPrductTypeId(Long productTypeId);
 }
